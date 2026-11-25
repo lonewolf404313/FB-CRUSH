@@ -1,11 +1,11 @@
-import ui
+import uir
 
 
 def main():
     try:
-        ui.main()
+        uir.main()
     except KeyboardInterrupt:
-        print(ui.RESET + "\n[ MARUF ] ATTACK STOPPED" + ui.RESET)
+        print(ui.RESET + "\n[ MARUF ] ATTACK STOPPED" + uir.RESET)
 
 
 if __name__ == "__main__":
